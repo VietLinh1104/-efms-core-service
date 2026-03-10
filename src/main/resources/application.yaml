@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: efms-spring
+
+  profiles:
+    active: local

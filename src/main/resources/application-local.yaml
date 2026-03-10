@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  datasource:
+    url: jdbc:postgresql://online-auction-linhtx2004-7c6b.l.aivencloud.com:23595/defaultdb
+    username: avnadmin
+    password: AVNS_a-DXC1wqCn24TzOOGGi
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: false
+
+server:
+  port: 8081
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
