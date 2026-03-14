@@ -1,4 +1,4 @@
-package com.linhdv.efms_core_service.dto;
+package com.linhdv.efms_core_service.dto.common;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
